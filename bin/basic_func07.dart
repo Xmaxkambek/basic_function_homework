@@ -3,12 +3,12 @@
 //  Create function arguments a.
 
 //  Return the value a.
-String func(String a){
+int func(int a){
   return a; 
 }
 
 
 void main(){
-  print (func('new'));
+  print (func(3));
 }
 
