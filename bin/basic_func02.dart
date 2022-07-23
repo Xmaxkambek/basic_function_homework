@@ -1,4 +1,12 @@
 //  Create a function called func.
 
 //  Return the value "Hello World"
-void main() {}
+String func (){
+  return 'Hello World';
+}
+
+
+void main() {
+  String x =func();
+  print(x);
+}
